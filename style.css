@@ -37,9 +37,10 @@ h1 {
   font-weight: 700;
 }
 
-/* .btn:hover {
-  background-color: darkslategray;
-} */
+.btn:hover {
+  opacity: 0.8;
+  /* background-color: dimgray; */
+}
 .btn:active {
   transform: translate(0%, 1px);
   box-shadow: 0 1rem 2rem whitesmoke;
