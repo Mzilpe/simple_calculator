@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgb(238, 113, 11), rgb(250, 17, 161));
+}
+
+input {
+  padding: 20px;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.col {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 20px;
+  width: 100%;
+  background-color: black;
+  color: wheat;
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s;
+}
+
+h1 {
+  margin: 20px;
+  font-weight: 700;
+}
+
+/* .btn:hover {
+  background-color: darkslategray;
+} */
+.btn:active {
+  transform: translate(0%, 1px);
+  box-shadow: 0 1rem 2rem whitesmoke;
+}
